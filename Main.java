@@ -8,11 +8,11 @@ public class Main {
         telephone.add("0102030405");
         telephone.add("0607080900");
         Personnel p = new Personnel.Builder("Romain", "Guichard")
+        .fonction("Docteur")
         .date(LocalDate.of(1970,1,12))
         .telephone(telephone)
         .build();
-        System.err.println(p.getNom());
-        System.err.println(p.getPrenom());
+        System.err.println(p.getNom() + " " + p.getPrenom());
         System.err.println(p.getFonction());
         System.err.println(p.getDate());
         System.err.println(p.getTelephone());

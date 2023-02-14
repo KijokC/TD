@@ -16,7 +16,7 @@ public class Personnel {
         private final String prenom;
 
         private String fonction = new String("Membre");
-        java.time.LocalDate date  = LocalDate.of(1900,01,01);
+        private java.time.LocalDate date  = LocalDate.of(1900,01,01);
         private List<String> telephone = new ArrayList<>();
 
 
